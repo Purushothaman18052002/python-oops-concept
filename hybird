@@ -1,0 +1,17 @@
+class parent:
+     def func1(self):
+         print("this function one")
+class child(parent):
+     def func2(self):
+         print("this function two")
+class child1(parent):
+     def func3(self):
+         print("this function 3")
+class child3(parent):
+     def func4(self):
+        print("this function 4")
+obj=child3()
+obj.func1()
+                              
+    
+     
