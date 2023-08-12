@@ -1,0 +1,10 @@
+class polymor:
+    def add(self,a,b):
+        return a+b
+fun_over=polymor()
+int_sum=fun_over.add(3,4)
+float_sum=fun_over.add(3.5,4.3)
+str_sum=fun_over.add("3","4")
+print("Int_sum is:",int_sum)
+print("float_sum is:",float_sum)
+print("str_sum is:",str_sum)
