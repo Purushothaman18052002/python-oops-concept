@@ -1,0 +1,15 @@
+class employee:
+    "this is employee class"
+    def __init__(self,first,last,sal):
+        self.fname=first
+        self.lname=last
+        self.sal=sal
+        self.email=first + '.' + last + '@company.com'
+
+emp1=employee('senthil','subramaniam',350000)
+emp2=employee('purushoth','aman',100000)
+print(emp1.email)
+print(emp2.email)
+print(emp1.sal)
+print(emp1.__doc__)
+print(emp1.__dict__)
