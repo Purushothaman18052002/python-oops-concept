@@ -1,0 +1,14 @@
+class bike:
+    def __init__(self):
+        self.__max_speed=250
+        self.__name="yamaha-FZ-S"
+    def drive(self):
+        print('driving maxspeed is dangerous' + str(self.__max_speed))
+    def setSpeed(self,speed):
+        self.__max_speed=speed
+bike=bike()
+bike.drive()
+bike.__max_speed=10
+bike.drive()
+bike.setSpeed(900)
+bike.drive()
