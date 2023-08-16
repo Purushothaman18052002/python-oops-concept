@@ -1,0 +1,8 @@
+class Employee:
+    @staticmethod
+    def sample(x):
+        print('inside static method')
+
+Employee.sample(10)
+emp=Employee()
+emp.sample(10)
