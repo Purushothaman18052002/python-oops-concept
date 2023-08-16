@@ -1,0 +1,8 @@
+class example:
+    def __init__(self,x):
+        self.X=x
+    def __add__(self,other):
+        return self.X + other.X
+object_1=example(int(input("please enter the value:")))
+object_2=example(int(input("please enter the value:")))
+print(object_1 + object_2)
