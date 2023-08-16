@@ -1,0 +1,14 @@
+class student:
+    def __init__(self,name):
+        print('inside constructor')
+        self.name=name
+        print('object initialized')
+    def show(self):
+        print('hello,my name is',self.name)
+    def __del__(self):
+        print('inside destructor')
+        print('object destroyed')
+s1=student('mohanu')
+s1.show()
+del s1
+s1.show()
